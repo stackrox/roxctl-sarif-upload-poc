@@ -1,6 +1,7 @@
 name: Debug sarif
 on:
   push:
+  pull_request:
 
 jobs:
   scan-images-with-roxctl:
